@@ -1,0 +1,182 @@
+:root {
+    --primary-brand-color: #4d5ae5; /* IRIS */
+    --pressed-state-color: #404bbf; /* OCEAN */
+    --dark-color: #2e2f42; /* NAVYBLUE */
+    --text-color: #434455; /* SLATE */
+    --accent-color: #e7e9fc; /* CORNFLOWER */
+    --light-color: #f4f4fd; /* CLOUD */
+    --background-color: #ffffff;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    background-color: var(--background-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* =================== components =================== */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.subtitle {
+    font-size: 20px;
+    line-height: calc(24 / 20);
+}
+
+.text {
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.logotype {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark-color);
+}
+
+.logotype-span {
+    color: var(--primary-brand-color);
+}
+/* =================== /components =================== */
+
+/* =================== index.html =================== */
+/* =================== site header section =================== */
+.header-list-item-text {
+    color: var(--dark-color);
+}
+
+.header-list-item-text:hover,
+.header-list-item-text:focus {
+    color: var(--pressed-state-color);
+}
+
+.heder-contacts {
+    font-style: normal;
+}
+
+.heder-contacts-list-item-text {
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.heder-contacts-list-item-text:hover,
+.heder-contacts-list-item-text:focus {
+    color: var(--pressed-state-color);
+}
+/* =================== /site header section =================== */
+
+/* =================== site main section =================== */
+/* =================== section hero =================== */
+.hero {
+    background: var(--dark-color);
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: calc(60 / 56);
+    text-align: center;
+    color: var(--background-color);
+}
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.04em;
+    color: var(--background-color);
+    background: var(--primary-brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background: var(--pressed-state-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/* =================== /section hero =================== */
+
+/* =================== section benefits =================== */
+.benefits-title {
+    display: none;
+}
+/* =================== /section benefits =================== */
+
+/* =================== section works =================== */
+.works-list-item-img {
+    border: 1px solid var(--accent-color);
+}
+/* =================== /section works =================== */
+
+/* =================== section team =================== */
+.team {
+    background: var(--light-color);
+}
+
+.team-list-item {
+    background: var(--background-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-subtitle {
+    text-align: center;
+}
+
+.team-text {
+    text-align: center;
+}
+/* =================== /section team =================== */
+/* =================== /site main section =================== */
+
+/* =================== site footer section =================== */
+.footer {
+    background: var(--dark-color);
+}
+
+.footer-logotype {
+    line-height: calc(21 / 18);
+    color: var(--light-color);
+}
+
+.footer-text {
+    color: var(--accent-color);
+}
+/* =================== /site footer section =================== */
+/* =================== /index.html =================== */
+
+/* =================== portfolio.html =================== */
+
+/* =================== /portfolio.html =================== */
+
+/* =================== oll html files ================== */
+/* =================== components ================== */
+.current {
+  color: var(--pressed-state-color);
+}
+/* =================== /components =================== */
+/* =================== /oll html files ================== */
