@@ -10,7 +10,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: var(--dark-color);
@@ -27,6 +26,7 @@ body {
 /* =================== components =================== */
 .title {
   font-size: 36px;
+  font-weight: 500;
   line-height: calc(40 / 36);
   text-align: center;
   text-transform: capitalize;
@@ -39,7 +39,6 @@ body {
 }
 
 .text {
-  font-weight: 400;
   color: var(--text-color);
 }
 
@@ -57,9 +56,9 @@ body {
   color: var(--dark-color);
 }
 
-.button {
+.btn {
   font-family: inherit;
-  font-weight: inherit;
+  font-weight: 500;
   font-size: inherit;
   line-height: inherit;
   letter-spacing: 0.04em;
@@ -72,6 +71,7 @@ body {
 /* =================== index.html =================== */
 /* =================== site header section =================== */
 .header-list-item-text {
+  font-weight: 500;
   color: var(--dark-color);
 }
 
@@ -80,7 +80,6 @@ body {
 }
 
 .heder-contacts-list-item-text {
-  font-weight: 400;
   color: var(--text-color);
 }
 
